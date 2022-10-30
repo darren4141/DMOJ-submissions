@@ -5,14 +5,14 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Main {
+public class ASCL09P4 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
     static final int MM = (int)2e3+5;
     
     static ArrayList <Integer> graph [] = new ArrayList[MM];
     static boolean visited [] = new boolean [MM];
-    static boolean variablenamesaregettingwaytoolongopenbracketunironicclosedbracket [] = new boolean [MM];
+    static boolean count [] = new boolean [MM];
     static int cycles = 0;
     
     static void dfs(int g, int root) {
@@ -21,8 +21,8 @@ public class Main {
         	if(!visited[v]) {
         		dfs(v, root);
         	}else if(visited[v] && v == root) {
-        		if(!variablenamesaregettingwaytoolongopenbracketunironicclosedbracket[v])cycles++;        		
-        		variablenamesaregettingwaytoolongopenbracketunironicclosedbracket[v] = true;
+        		if(!count[v])cycles++;        		
+        		count[v] = true;
         	}
     	}
     	visited[g] = false;

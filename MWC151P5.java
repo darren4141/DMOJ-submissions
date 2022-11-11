@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class MWC151P5 {
     static int mod = (int)1e9+7;
 
     public static void main(String[] args) throws IOException{    	

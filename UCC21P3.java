@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class UCC21P3 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;     
     

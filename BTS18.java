@@ -21,12 +21,15 @@ public class BTS18{
         for(int i = 0; i < queries; i++){
             int min = readInt();
             int max = readInt();
-            String target = readLine();
+            String target = next();
 
-            String bound = charpsa[i].substring(min-1);
+            if(max > mess.length()){
+                max = mess.length()-1;
+            }
+            String bound = charpsa[max].substring(min-1);
             String clipped = bound.replace(target, "");
 
-            System.out.println(clipped.length()-bound.length());
+            System.out.println(bound.length()-clipped.length());
 
         }
 

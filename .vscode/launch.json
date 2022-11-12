@@ -1,0 +1,231 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ASCL09P4",
+            "request": "launch",
+            "mainClass": "ASCL09P4",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch AvocadoTrees",
+            "request": "launch",
+            "mainClass": "AvocadoTrees",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BPC1J3",
+            "request": "launch",
+            "mainClass": "BPC1J3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BTS18",
+            "request": "launch",
+            "mainClass": "BTS18",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC00S1",
+            "request": "launch",
+            "mainClass": "CCC00S1",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC01S3",
+            "request": "launch",
+            "mainClass": "CCC01S3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC03S3",
+            "request": "launch",
+            "mainClass": "CCC03S3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC05J5",
+            "request": "launch",
+            "mainClass": "CCC05J5",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC05S1",
+            "request": "launch",
+            "mainClass": "CCC05S1",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC06J4",
+            "request": "launch",
+            "mainClass": "CCC06J4",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC08S3",
+            "request": "launch",
+            "mainClass": "CCC08S3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC09J4",
+            "request": "launch",
+            "mainClass": "CCC09J4",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC09S3",
+            "request": "launch",
+            "mainClass": "CCC09S3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC13S4",
+            "request": "launch",
+            "mainClass": "CCC13S4",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC14S3",
+            "request": "launch",
+            "mainClass": "CCC14S3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC18J5",
+            "request": "launch",
+            "mainClass": "CCC18J5",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC21J4",
+            "request": "launch",
+            "mainClass": "CCC21J4",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC21S2",
+            "request": "launch",
+            "mainClass": "CCC21S2",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CCC22S1",
+            "request": "launch",
+            "mainClass": "CCC22S1",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DMOPC2110P1",
+            "request": "launch",
+            "mainClass": "DMOPC2110P1",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DMPG17S2",
+            "request": "launch",
+            "mainClass": "DMPG17S2",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ECOO15R2P3",
+            "request": "launch",
+            "mainClass": "ECOO15R2P3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFSSOC15P4",
+            "request": "launch",
+            "mainClass": "GFSSOC15P4",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GraphContest1P3",
+            "request": "launch",
+            "mainClass": "GraphContest1P3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GraphContest2P2",
+            "request": "launch",
+            "mainClass": "GraphContest2P2",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MWC151P5",
+            "request": "launch",
+            "mainClass": "MWC151P5",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCEP3",
+            "request": "launch",
+            "mainClass": "TCEP3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch UCC21P3",
+            "request": "launch",
+            "mainClass": "UCC21P3",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch VM7WC163",
+            "request": "launch",
+            "mainClass": "VM7WC163",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        },
+        {
+            "type": "java",
+            "name": "Launch WC18S2",
+            "request": "launch",
+            "mainClass": "WC18S2",
+            "projectName": "DMOJ-submissions_6f9a4d0"
+        }
+    ]
+}

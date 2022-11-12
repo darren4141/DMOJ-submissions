@@ -1,6 +1,5 @@
 //https://dmoj.ca/submission/4639250
 import java.io.*;
-import java.util.*;
 
 public class BubbleSort {
     public static void main(String[] args) throws IOException{    	
@@ -12,9 +11,7 @@ public class BubbleSort {
     	String nums = br.readLine();
     	strnum = nums.split(" ");
     	int temp = 0;
-    	int count = 0;
-    	boolean sorted = false;
-    	
+    	int count = 0;    	
     	for(int i = 0; i < num.length; i++) {
     		num[i] = Integer.parseInt(strnum[i]);
     	}

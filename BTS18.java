@@ -1,13 +1,16 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
+//make a PSA of the letters in the phrase
+//sum the number of the given char in the PSA at index max
+//subtract the number of the given char in the PSA at index min
+
 public class BTS18{
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
 
     public static void main(String[]args) throws IOException{
         String mess = readLine();
-        mess = mess.replace(" ", "");
         
         String [] charpsa = new String[mess.length()];
         charpsa[0] = String.valueOf(mess.charAt(0));
@@ -19,18 +22,24 @@ public class BTS18{
         int queries = readInt();
 
         for(int i = 0; i < queries; i++){
+        	int count = 0;
             int min = readInt();
             int max = readInt();
-            String target = next();
-
-            if(max > mess.length()){
-                max = mess.length()-1;
+            char target = readCharacter();
+            
+            //System.out.println(charpsa[max-1]);
+            //System.out.println(charpsa[min-2]);
+            
+            String clipped = charpsa[max-1];
+            
+            if(min != 1) {
+            	clipped = clipped.replace(charpsa[min-2], "");
             }
-            String bound = charpsa[max].substring(min-1);
-            String clipped = bound.replace(target, "");
-
-            System.out.println(bound.length()-clipped.length());
-
+        	
+            String removed = clipped.replace(Character.toString(target), "");
+            
+            System.out.println(clipped.length() - removed.length());
+            
         }
 
     }

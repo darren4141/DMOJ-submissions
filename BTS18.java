@@ -22,7 +22,6 @@ public class BTS18{
         int queries = readInt();
 
         for(int i = 0; i < queries; i++){
-        	int count = 0;
             int min = readInt();
             int max = readInt();
             char target = readCharacter();

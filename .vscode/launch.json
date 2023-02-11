@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q1",
+            "request": "launch",
+            "mainClass": "Q1",
+            "projectName": "DMOJ-submissions_8ec07d0b"
+        },
+        {
+            "type": "java",
             "name": "Launch Q3",
             "request": "launch",
             "mainClass": "Q3",

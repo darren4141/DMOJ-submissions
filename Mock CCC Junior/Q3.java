@@ -20,6 +20,7 @@ public class Q3 {
         for(int i = 0; i < n; i++)
             b[i] = readInt();
 
+        
     }
 
     static String next() throws IOException{
